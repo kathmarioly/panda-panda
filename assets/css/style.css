@@ -1,3 +1,46 @@
-*{
-	background: red;
+body{
+	margin: 0;
+	background: url("../img/Bambú.jpg");
+	background-position: center; /* Para centrar la imagen*/
+	padding: 30px 0;
+
+
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #009999;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+
+
+}
+
+ul li{
+	display: inline-block;
+	width: 10%;
+}
+
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+/*hover-estilo: cambiar el color del backgroun
+al pasar el cursor por el enlace. */
+background-color: #FFE900;
+color: #333;
+}
+
+.uno{
+	width: 20px;
 }
