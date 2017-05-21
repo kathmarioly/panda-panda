@@ -42,7 +42,8 @@ color: #333;
 }
 
 .imagenes{
-	margin: 45px;
+	margin: 120px;
+	 float: center;
 }
 
 .floating-box {
@@ -62,12 +63,14 @@ h1{
 	color: whitesmoke;
 	text-align: center;
 	font-size: 40px;
+	text-shadow: 0.1em 0.1em #332;
+	font-family: 'Roboto', sans-serif;
 }
 
 #parrafo1{
  	float: left;
     width: 46%;
-    height: 200px;
+    height: 239px;
     margin: 5px;
     padding: 10px;
     background-color:  #009999;
@@ -80,7 +83,7 @@ h1{
 #parrafo2{
  	float: left;
     width: 46%;
-    height: 200px;
+    height: 239px;
     margin: 5px;
     padding: 10px;
     background-color: #009999;;
