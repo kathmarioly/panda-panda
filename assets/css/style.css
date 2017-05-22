@@ -22,7 +22,7 @@ ul{
 
 ul li{
 	display: inline-block;
-	width: 10%;
+	width: 7%;
 }
 
 ul li a{
@@ -42,8 +42,8 @@ color: #333;
 }
 
 .imagenes{
-	margin: 120px;
-	 float: center;
+	margin: 0px 0px 0px 100px;
+	float: center;
 }
 
 .floating-box {
@@ -59,21 +59,57 @@ color: #333;
 	margin: 30px;
 }
 
-h1{
-	color: whitesmoke;
-	text-align: center;
-	font-size: 40px;
-	text-shadow: 0.1em 0.1em #332;
-	font-family: 'Roboto', sans-serif;
-}
 
+
+.contex-box{
+	color: black;
+    text-align: center;
+    padding: 10;
+    width: 100%;
+    height: 50px;
+
+
+}
+ #origen, #extin, #restaurar {
+    background-color: whitesmoke;
+    margin: 0px 1px;
+    padding: 4px 90px;
+
+ }
+ 
+ a{
+    color: #009999;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+
+
+
+
+ #items{
+	color: whitesmoke;
+ 	box-sizing: border-box;
+    height: 10px;
+    width: 100%;
+    padding: 0px 0px 0px 250px ;
+   
+ }
+
+ .parrafos{
+ 	background-color: #009999;
+ 	float: left;
+    width: 100%;
+    height: 239px;
+    margin: 5px;
+    padding: 10px;
+ }
 #parrafo1{
  	float: left;
     width: 46%;
     height: 239px;
     margin: 5px;
     padding: 10px;
-    background-color:  #009999;
     color: whitesmoke;
     font-size: 16px;
     text-align: justify;
@@ -86,9 +122,20 @@ h1{
     height: 239px;
     margin: 5px;
     padding: 10px;
-    background-color: #009999;;
     color: whitesmoke;
     font-size: 16px;
     text-align: justify;
 
+}
+
+.bot{
+	background: black;
+	color: whitesmoke;
+}
+
+.bot:hover, .dropdown:hover, .dropbtn:hover{
+/*hover-estilo: cambiar el color del backgroun
+al pasar el cursor por el enlace. */
+background-color: red;
+color: #333;
 }
